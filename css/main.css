@@ -1,0 +1,20 @@
+body{
+    background-color: azure;
+    overflow:auto; <!-- HERE -->
+}
+.hoverAction {
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.hoverAction:hover {
+    opacity: 50%;
+}
+
+#contents, .header1{
+    text-align: center;
+}
+#textContent{
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+}
